@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "jeolojiradari",
+  "version": "${version}",
+  "name": "Jeoloji Radarı",
+  "description": "Eğitsel X-Ray: R tuşuyla maden taraması ve Y seviyesi bilgisi.",
+  "authors": ["Sen"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.jeolojiradari.JeolojiRadariClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
